@@ -63,3 +63,136 @@ img {
 .navbar .flex {
     justify-content: space-between;
 }
+
+/* Home */
+.home {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.home h2 {
+    font-size: 27px;
+}
+
+.home p {
+    margin: 20px 0;
+}
+
+.home .grid {
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.home-image {
+    position: relative;
+    top: 0;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    justify-self: flex-end;
+}
+
+.home::before,
+.home::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #fff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+
+/* Section Headings */
+.heading-blue {
+    font-size: 27px;
+    color: var(--primary-color);
+}
+
+.heading-white {
+    padding-top: 85px;
+    font-size: 27px;
+    color: #fff;
+}
+
+/* Section Paragraphs */
+.p-black {
+    font-size: 19px;
+    color: #333;
+}
+
+.p-white {
+    font-size: 19px;
+    color: #fff;
+}
+
+/* Education */
+.education {
+    padding-top: 100px;
+}
+
+.class-list {
+    text-align: center;
+    font-size: 19px;
+}
+
+.class-list a:hover {
+    border-bottom: 1px #333 solid;
+}
+
+/*
+.education::before,
+.education::after {
+    content: '';
+    position: relative;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: var(--primary-color);
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+*/
+
+/* Work */
+.work {
+    margin-top: 100px;
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+/* Skills */
+.skills {
+    padding-top: 100px;
+    height: 400px;
+    position: relative;
+}
+
+/* Projects */
+.projects {
+    margin-top: 100px;
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+/* Contact */
+.contact {
+    padding-top: 100px;
+    height: 400px;
+    position: relative;
+}
