@@ -14,7 +14,7 @@
     margin: 10px;
 }
 
-.btn {
+.bttn {
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
@@ -24,12 +24,12 @@
     border-radius: 5px;
 }
 
-.btn-outline {
+.bttn-outline {
     background-color: transparent;
     border: 1px #fff solid;
 }
 
-.btn:hover {
+.bttn:hover {
     transform: scale(0.98);
 }
 
