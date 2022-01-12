@@ -16,8 +16,35 @@
   </head>
 
   <body>
+    <!-- Bootstrap Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#">Darren Zheng.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#education">Education</a>
+          <a class="nav-item nav-link" href="#experience">Experience</a>
+          <a class="nav-item nav-link" href="#projects">Projects</a>
+          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#">Resume</a>
+        </div>
+      </div>
+    </nav>
     <!--NavBar-->
-    <div class="navbar sticky-top">
+    <!-- <div class="navbar sticky-top">
       <div class="container flex">
         <h1 class="name">Darren Zheng.</h1>
         <nav>
@@ -31,7 +58,7 @@
           </ul>
         </nav>
       </div>
-    </div>
+    </div> -->
 
     <!--Home-->
     <section class="home" id="home">
@@ -46,7 +73,7 @@
         </div>
 
         <div class="home-image">
-          <img src="headshot.jpg" alt="Headshot" />
+          <img src="/images/headshot.jpg" alt="Headshot" />
         </div>
       </div>
     </section>
@@ -196,14 +223,53 @@
     <section class="blue-section" id="experience">
       <div class="container">
         <h1 class="heading-white text-center my-1"><u>Experience</u></h1>
-        <h3><b>Princeton University</b></h3>
-        <p class="p-white m-3">
-          <b>Major:</b> Computer Science, BSE<br />
-          <b>Minor: </b>Statistics & Machine Learning<br />
-          <b>GPA:</b> 3.62<br />
-          <b>Graduation:</b> June 2023<br />
-          <b>Relevant Coursework:</b>
-        </p>
+        <div class="experience-details my-5" id="prstrt">
+          <h3><b>Puerto Rico Science, Technology and Research Trust</b></h3>
+          <h5>
+            <b><i>Web Development Intern</i></b>
+          </h5>
+          <ul class="experience-list" id="prstrt-list">
+            <li>
+              With a partner, I prototyped a dashboard, using HTML, CSS, and
+              JavaScript, to effectively display real-time renewable energy
+              information to the Puerto Rico public.
+            </li>
+            <li>
+              I used Leaflet, a Javascript library, to build interactive map
+              prototypes to show solar energy production across Puerto Rico.
+            </li>
+            <li>
+              I initiated meetings with organizations such as the Rocky Mountain
+              Institute and Clinton Foundation to form collaborations for
+              renewable energy data collection and display.
+            </li>
+          </ul>
+        </div>
+        <div class="experience-details my-5" id="collegebound">
+          <h3><b>Collegebound Review</b></h3>
+          <h5>
+            <b><i>SAT Tutor</i></b>
+          </h5>
+          <ul class="experience-list" id="collegbound-list">
+            <li>
+              I provide private 1-on-1 SAT remote tutoring and help improve
+              students' scores on the SAT test by an average of 200-300 points.
+            </li>
+          </ul>
+        </div>
+        <div class="experience-details my-5" id="cos126">
+          <h3><b>Princeton University Computer Science Department</b></h3>
+          <h5>
+            <b><i>COS126 Lab Teaching Assistant</i></b>
+          </h5>
+          <ul class="experience-list" id="cos126-list">
+            <li>
+              I helped debug students' assignments with an average of four
+              students per hour and answered students' questions about general
+              computer science topics.
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
