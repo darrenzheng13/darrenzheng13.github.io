@@ -162,21 +162,26 @@ img {
 }
 
 .white-section {
-  padding-top: 100px;
-  /* height: 400px; */
   position: relative;
 }
 
 .blue-section {
-  padding-top: 100px;
-  /* height: 400px; */
   background-color: var(--primary-color);
   color: #fff;
   position: relative;
 }
 
+.section-padding {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
 .class-list {
   list-style-type: none;
+}
+
+.bot-p {
+  padding-bottom: 30px;
 }
 
 /* Projects */
@@ -208,6 +213,10 @@ img {
   transform: translate(-50%, -50%);
   text-align: center;
 } */
+
+.experience-details {
+  padding-left: 5%;
+}
 
 .project {
   position: relative;
@@ -263,6 +272,14 @@ img {
   bottom: 0px;
 }
 
+.skill-list {
+  list-style-type: none;
+}
+
+.skill-item {
+  font-size: large;
+}
+
 /* 
 .experience {
   margin-top: 100px;
@@ -293,4 +310,15 @@ img {
   padding-top: 100px;
   height: 400px;
   position: relative;
+} */
+
+.contact-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* #btn-github {
+  color: purple;
+  box-shadow: purple;
+  outline-color: purple !important;
 } */

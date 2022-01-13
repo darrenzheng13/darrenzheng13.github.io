@@ -12,6 +12,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Darren Zheng | Personal Website</title>
   </head>
 
@@ -61,25 +65,52 @@
     </div> -->
 
     <!--Home-->
-    <section class="home" id="home">
+    <!-- <section class="home" id="home">
       <div class="container grid">
-        <div class="home-text">
-          <h2>Welcome!</h2>
-          <p>
-            My name is Darren Zheng, and I am a Junior studying computer science
-            at Princeton University.
-          </p>
-          <a href="#contact" class="bttn bttn-outline">Contact Me</a>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-8">
+            <div class="home-text">
+            <h2>Welcome!</h2>
+            <p>
+              My name is Darren Zheng, and I am a Junior studying computer
+              science at Princeton University.
+            </p>
+            <a href="#contact" class="bttn bttn-outline">Contact Me</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="home-image">
+            <img src="/images/headshot.jpg" alt="Headshot" />
+            </div>
+          </div>
         </div>
+      </div>
+    </section> -->
 
-        <div class="home-image">
-          <img src="/images/headshot.jpg" alt="Headshot" />
+    <section class="blue-section section-padding">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-8 my-3">
+            <!-- <div class="home-text"> -->
+            <h2>Welcome!</h2>
+            <p>
+              My name is Darren Zheng, and I am a Junior studying computer
+              science at Princeton University.
+            </p>
+            <a href="#contact" class="bttn bttn-outline">Contact Me</a>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-4 my-3">
+            <!-- <div class="home-image"> -->
+            <img src="/images/headshot.jpg" alt="Headshot" />
+            <!-- </div> -->
+          </div>
         </div>
       </div>
     </section>
 
     <!--Education-->
-    <section id="education">
+    <section class="section-padding" id="education">
       <div class="container">
         <h1 class="heading-blue text-center my-3">
           <u><b>Education</b></u>
@@ -88,7 +119,6 @@
         <p class="p-black m-3">
           <b>Major:</b> Computer Science, BSE<br />
           <b>Minor: </b>Statistics & Machine Learning<br />
-          <b>GPA:</b> 3.62<br />
           <b>Graduation:</b> June 2023<br />
           <b>Relevant Coursework:</b>
         </p>
@@ -220,7 +250,7 @@
     </section>
 
     <!--Experience-->
-    <section class="blue-section" id="experience">
+    <section class="blue-section section-padding" id="experience">
       <div class="container">
         <h1 class="heading-white text-center my-1"><u>Experience</u></h1>
         <div class="experience-details my-5" id="prstrt">
@@ -276,12 +306,16 @@
     </section>
 
     <!--Projects-->
-    <section class="white-section" id="projects">
+    <section class="white-section section-padding" id="projects">
       <div class="container">
         <h1 class="heading-blue text-center my-1"><u>Projects</u></h1>
         <div class="row">
           <div class="col-sm-6 col-12 my-5">
-            <a id="project-cosiw" href="#education">
+            <a
+              id="project-cosiw"
+              href="https://github.com/darrenzheng13/automated-form-feedback"
+              target="_blank"
+            >
               <div class="project">
                 <img
                   class="project-image"
@@ -302,7 +336,11 @@
             </a>
           </div>
           <div class="col-sm-6 col-12 my-5">
-            <a id="project-cosiw" href="#education">
+            <a
+              id="project-cosiw"
+              href="https://tigerfit.herokuapp.com/"
+              target="_blank"
+            >
               <div class="project">
                 <img
                   class="project-image"
@@ -324,11 +362,15 @@
         </div>
         <div class="row">
           <div class="col-sm-6 col-12 my-5">
-            <a id="project-cos424" href="#education">
+            <a
+              id="project-cos424"
+              href="https://github.com/darrenzheng13/climate-change-factors"
+              target="_blank"
+            >
               <div class="project">
                 <img
                   class="project-image"
-                  src="/images/project_cosiw.jpg"
+                  src="/images/climate.jpg"
                   alt="cos424"
                 />
               </div>
@@ -340,6 +382,10 @@
                   <p class="project-description">
                     As my independent work project, ...
                   </p>
+                  <p class="image-citation">
+                    Image Source: https://www.frost.com/frost-perspectives/
+                    the-promising-role-of-carbon-capture-and-storage-to-combat-climate-change/
+                  </p>
                 </center>
               </div>
             </a>
@@ -350,7 +396,7 @@
               href="https://prstrt-dashboard.herokuapp.com/"
               target="_blank"
             >
-              <div class="prstrt">
+              <div class="project">
                 <img
                   class="project-image"
                   src="/images/prstrt.jpg"
@@ -366,7 +412,7 @@
                     TigerFit is a web application designed for both desktop and
                     mobile use.
                   </p>
-                  <p class="image-citation sticky-bottom">
+                  <p class="image-citation">
                     Image Source:
                     https://www.yarotek.com/puerto-rico-seeking-hope-by-turning-to-solar-power/
                   </p>
@@ -379,67 +425,108 @@
     </section>
 
     <!--Skills-->
-    <section class="blue-section" id="skills">
+    <section class="blue-section section-padding" id="skills">
       <div class="container">
-        <h1 class="heading-white text-center my-1"><u>Skills</u></h1>
-      </div>
-      <div class="container">
-        <center>
-          <div class="row justify-content-center">
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">Python</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">Java</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">JavaScript</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">HTML</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">CSS</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">SQL</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">R</span>
-            </div>
-            <div class="col-sm-4 py-2">
-              <span class="skill-name">Git</span>
-            </div>
+        <h1 class="heading-white text-center my-1 bot-p"><u>Skills</u></h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-4">
+            <center>
+              <ul class="skill-list">
+                <li><span class="skill-item">Python</span></li>
+                <li><span class="skill-item">Java</span></li>
+                <li><span class="skill-item">HTML</span></li>
+                <li><span class="skill-item">CSS</span></li>
+                <li><span class="skill-item">JavaScript</span></li>
+                <li><span class="skill-item">SQL</span></li>
+                <li><span class="skill-item">R</span></li>
+              </ul>
+            </center>
           </div>
-        </center>
+          <div class="col-12 col-sm-4">
+            <center>
+              <ul class="skill-list">
+                <li><span class="skill-item">GitHub</span></li>
+                <li><span class="skill-item">Bootstrap</span></li>
+                <li><span class="skill-item">LaTex</span></li>
+                <li><span class="skill-item">MatLab</span></li>
+              </ul>
+            </center>
+          </div>
+          <div class="col-12 col-sm-4">
+            <center>
+              <ul class="skill-list">
+                <li><span class="skill-item">Data Structures</span></li>
+                <li><span class="skill-item">Algorithms</span></li>
+                <li>
+                  <span class="skill-item">Object Oriented Programming</span>
+                </li>
+                <li><span class="skill-item">Maching Learning</span></li>
+                <li><span class="skill-item">Data Science</span></li>
+                <li><span class="skill-item">Problem Solving</span></li>
+                <li><span class="skill-item">Probability</span></li>
+              </ul>
+            </center>
+          </div>
+        </div>
       </div>
+      <!--  <center>
+        <div class="row justify-content-center">
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">Python</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">Java</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">JavaScript</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">HTML</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">CSS</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">SQL</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">R</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <span class="skill-name">Git</span>
+          </div>
+        </div>
+      </center> -->
     </section>
 
     <!--Contact-->
-    <section class="white-section" id="contact">
+    <section class="white-section section-padding" id="contact">
       <div class="container">
         <h1 class="heading-blue text-center my-1"><u>Contact</u></h1>
-
-        <button
-          type="button"
-          class="btn btn-secondary"
-          data-bs-container="body"
-          data-bs-toggle="popover"
-          data-bs-placement="bottom"
-          data-bs-content="Bottom popover"
+        <div
+          class="row align-items-center justify-content-center my-5"
+          id="contact-buttons"
         >
-          <a href="https://www.google.com">GOOGLE</a>
-        </button>
-
-        <a
-          class="btn btn-primary"
-          href="mailto: darrenz@princeton.edu"
-          role="button"
-          >Email</a
-        >
-        <a class="btn btn-primary" href="#" role="button">Link</a>
-        <a class="btn btn-primary" href="#" role="button">Link</a>
-        <a class="btn btn-primary" href="#" role="button">Link</a>
+          <div class="col-sm-2 contact-btn">
+            <button type="button" class="btn btn-outline-danger btn-lg">
+              <i class="fa fa-envelope"></i> Email
+            </button>
+          </div>
+          <div class="col-sm-2 contact-btn">
+            <a href="https://www.linkedin.com/in/darrenzheng13" target="_blank">
+              <button type="button" class="btn btn-outline-primary btn-lg">
+                <i class="fa fa-linkedin-square"></i> LinkedIn
+              </button>
+            </a>
+          </div>
+          <div class="col-sm-2 contact-btn">
+            <a href="https://www.github.com/darrenzheng13" target="_blank">
+              <button type="button" class="btn btn-outline-success btn-lg">
+                <i class="fa fa-github-square"></i> GitHub
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
