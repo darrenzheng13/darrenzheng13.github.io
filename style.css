@@ -151,11 +151,6 @@ img {
   color: #fff;
 }
 
-/* Education */
-#education {
-  padding-top: 100px;
-}
-
 .class-list {
   text-align: center;
   font-size: 19px;
@@ -276,7 +271,9 @@ img {
 }
 
 .skill-item {
-  font-size: large;
+  font-size: x-large;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* 
@@ -314,6 +311,10 @@ img {
 .contact-btn {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.btn-purple {
+  color: purple;
 }
 
 /* #btn-github {
